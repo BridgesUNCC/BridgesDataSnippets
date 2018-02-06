@@ -29,7 +29,7 @@ public class imdbSnippet {
 	public static void main(String[] args) throws Exception {
 		
 		/* Initialize a Bridges connection with your credentials */
-		Bridges bridges = new Bridges(1, "984588748448", "BridgesData");
+		Bridges bridges = new Bridges(3, "999999999999", "MyBridgesName");
 		
 		/* Get a List of ActorMovieIMDB objects from Bridges */
 		List<ActorMovieIMDB> mylist = bridges.getActorMovieIMDBData("imdb", Integer.MAX_VALUE);

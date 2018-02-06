@@ -29,7 +29,7 @@ public class booksSnippet {
 	public static void main(String[] args) throws Exception {
 		
 		/* Initialize a Bridges connection with your credentials */
-		Bridges bridges = new Bridges(1, "984588748448", "BridgesData");
+		Bridges bridges = new Bridges(1, "999999999999", "MyBridgesName");
 		
 		/* Get a List of GutenbergBook objects from Bridges */
 		List<GutenbergBook> mylist = bridges.getGutenbergBookMetaData();

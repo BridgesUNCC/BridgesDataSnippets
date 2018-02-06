@@ -29,7 +29,7 @@ public class shakespeareSnippet {
 	public static void main(String[] args) throws Exception {
 		
 		/* Initialize a Bridges connection with your credentials */
-		Bridges bridges = new Bridges(1, "984588748448", "BridgesData");
+		Bridges bridges = new Bridges(4, "999999999999", "MyBridgesName");
 		
 		/* Get a List of Shakespeare objects from Bridges */
 		List<Shakespeare> mylist = bridges.getShakespeareData();

@@ -28,7 +28,7 @@ public class gamesSnippet {
 	public static void main(String[] args) throws Exception {
 		
 		/* Initialize a Bridges connection with your credentials */
-		Bridges bridges = new Bridges(1, "984588748448", "BridgesData");
+		Bridges bridges = new Bridges(2, "999999999999", "MyBridgesName");
 		
 		/* Get a List of Game objects from Bridges */
 		List<Game> mylist = bridges.getGameData();
